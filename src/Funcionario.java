@@ -18,15 +18,15 @@ public class Funcionario {
 			cargo = DESENVOLVEDOR;
 			break;
 		case DBA:
-			estrategiaDeGratificacao = new GratificacaoDesenvolvedor();
+			estrategiaDeGratificacao = new GratificacaoDBA();
 			cargo = DBA;
 			break;
 		case LIDER:
 			estrategiaDeGratificacao = new GratificacaoLider();
-			cargo = DBA;
+			cargo = GERENTE;
 			break;
 		default:
-			throw new RuntimeException("Cargo n„o encontrado :/");
+			throw new RuntimeException("Cargo n√£o encontrado :/");
 		}
 	}
 
