@@ -9,5 +9,9 @@ public class Main {
 		Funcionario outroFuncionario = new Funcionario(Funcionario.DBA,
 				1700, 2);
 		System.out.println(outroFuncionario.calcularGratificacao());
+		
+		Funcionario outroFuncionario = new Funcionario(Funcionario.GERENTE,
+				1700, 2);
+		System.out.println(outroFuncionario.calcularGratificacao());
 	}
 }
